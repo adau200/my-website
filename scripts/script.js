@@ -55,12 +55,12 @@ middleSchool = "Lyman Moore Middle School"
 
 // const response = input(message). --> creates a popup with message and entry widget 
 
-const userName = prompt("whats ur name?") 
-const favFood = prompt("whats ur fav food?") 
+//const userName = prompt("whats ur name?") 
+//const favFood = prompt("whats ur fav food?") 
     
 console.log("--- User Profile ---")
 console.log("Name: ", userName)
 console.log("Favorite Food: ", favFood)
-alert("Thanks " + userName + ".")
+//alert("Thanks " + userName + ".")
 
 
