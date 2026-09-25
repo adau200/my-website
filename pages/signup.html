@@ -1,15 +1,36 @@
-<form>
-    <div>
-        <label for="firstName">FirstName</label>
-        <input type="text" id="firstName" name="firstName" placeholder="Jane">
-    </div>
-    <div>
-       <label for="lastName">lastName</label> 
-       <input type ="text" id="lastName" name="lastName placeholder="Doe">
-    </div>
-    <div>
-        <label for="email"
 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="scripts/script.js" defer></script>
 
-    </div>
-</form>
+    </head>
+
+    <body>
+        <a href="../pages/movies.html">movies</a>
+        <a href="../pages/news.html">news</a>
+        <a href="../index.html">home</a>
+    <form>
+        <div>
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Jane">
+        </div>
+
+        <div>
+            <label for="lastName">Last Name</label> 
+            <input type="text" id="lastName" name="lastName" placeholder="Doe">
+            
+        </div>
+        
+        <div>
+        <label for="userEmail">Email Address</label>
+        <input type="email"name="userEmail" id="userEmail" placeholder="Email" required>
+        <button type="submit">Send Message</button>
+
+        </div>
+    </form>
+
+    </body>
