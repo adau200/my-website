@@ -5,7 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe - Submit</title>
 </head>
-<body>
-    
-</body>
+<header>
+    <body>
+    <hr>
+    <h1>Submit a Recipe</h1>
+ <nav>
+    <a href="../index.html">index home</a>
+        <main>
+            <form>
+                <div>
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="Jane">
+                </div>
+                <div>
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName" placeholder="Doe">
+                </div>
+                <div>
+                    <label for="userEmail">Email</label>
+                    <input type="text" id="userEmail" name="userEmail" placeholder="janedoe@gmail.com" required>
+
+                </div>
+
+            </form>
+            <label for="menu">Recipe Category</label>
+            <select name="recipeCategory" id="recipeCategory">
+            <option value="Italian">Italian</option>
+            <option value="Japanese">Japanese</option>
+            <option value="Japanese">Indian</option>
+            <option value="Chinese">Chinese</option>
+            <option value="Mexican">Mexican</option>
+            <option value="American">American</option>
+            <option value="Vietnamese">Vietnamese</option>
+            <option value="Nigerian">Nigerian</option>
+            <option value="Ethiopian">Ethiopian</option>
+            <option value="Other">Other</option>
+            </select>
+            
+            <div>
+                <label for="recipeDescription">Recipe Description</label>
+                <textarea name="recipeDescription" id="recipeDescription" value="recipeDescription"></textarea>
+
+            </div>
+
+            <button type="submit">Send Recipe</button>
+
+
+
+
+
+
+
+
+
+        </main>
+</nav>
+
+
+    </body>
+       
+</header>
+
 </html>
