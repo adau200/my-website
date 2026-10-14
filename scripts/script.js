@@ -80,31 +80,31 @@ lives-- //(lives = lives -1 )
 // Concatenation: method for combining strings by adding them
 
 
-const userName ="Sam"
-const userAge = 17
-const favoriteSubject = 'Math'
+// const userName ="Sam"
+// const userAge = 17
+// const favoriteSubject = 'Math'
 
-// Method 1: Concatenation
-const message = "Hello, my name is " + userName + " and I am " + userAge + " years old."
+// // Method 1: Concatenation
+// const message = "Hello, my name is " + userName + " and I am " + userAge + " years old."
 
-console.log(message)
+// console.log(message)
 
-//Method 2: Template Literals 
-const messageTwo = `Hello, my name is ${userName} and I am ${userAge} years old.`
-console.log(messageTwo)
+// //Method 2: Template Literals 
+// const messageTwo = `Hello, my name is ${userName} and I am ${userAge} years old.`
+// console.log(messageTwo)
 
-// Multi-Line String \n
-const bio = `
-=== USER  PROFILE ===
-Name: ${userName}
-Age: ${userAge}
-`
+// // Multi-Line String \n
+// const bio = `
+// === USER  PROFILE ===
+// Name: ${userName}
+// Age: ${userAge}
+// `
 
-console.log(bio)
+// console.log(bio)
 
- billAmount = prompt ("What is the bill amount?")
- billAmount = Number (billAmount)
-tipPercentage = prompt ("How much would you like to tip?")
+const billAmount = prompt ("What is the bill amount?")
+billAmount = Number (billAmount)
+const tipPercentage = prompt ("How much would you like to tip?")
 tipPercentage = Number (tipPercentage)
 console.log (tipPercentage*billAmount)
 const tipAmount = tipPercentage*billAmount
