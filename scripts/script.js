@@ -102,12 +102,12 @@ lives-- //(lives = lives -1 )
 
 // console.log(bio)
 
-const billAmount = prompt ("What is the bill amount?")
-billAmount = Number (billAmount)
-const tipPercentage = prompt ("How much would you like to tip?")
-tipPercentage = Number (tipPercentage)
-console.log (tipPercentage*billAmount)
-const tipAmount = tipPercentage*billAmount
-const totalAmount = tipAmount+billAmount
-const receipt = 'billAmount+tipPercentage+tipAmount+totalAmount'
-console.log (receipt)
+// const billAmount = prompt ("What is the bill amount?")
+// billAmount = Number (billAmount)
+// const tipPercentage = prompt ("How much would you like to tip?")
+// tipPercentage = Number (tipPercentage)
+// console.log (tipPercentage*billAmount)
+// const tipAmount = tipPercentage*billAmount
+// const totalAmount = tipAmount+billAmount
+// const receipt = 'billAmount+tipPercentage+tipAmount+totalAmount'
+// console.log (receipt)
