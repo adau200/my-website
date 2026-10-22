@@ -12,3 +12,15 @@
 section{
     color: white;
 }
+
+main{
+    border: 2px solid black;
+}
+
+#hero-box {
+    border: 2px solid black;
+    padding: 10px 20px 30px 50px; 
+    margin: 40px;
+    background-color: aqua;
+}
+

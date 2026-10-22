@@ -1,3 +1,4 @@
+/* Header Stylings */
 .header-logo{
     background-color: aqua;
     color: blue;
@@ -5,14 +6,33 @@
 
 }
 
+/* Main Stylings */
 
 
-
-
-a{
-    text-decoration: none;
+.box-1{
+    padding: 40x;
+    background-color: brown;
 }
 
-p{
+
+.box-2{
+    margin: 50px;
     background-color: blueviolet;
 }
+
+
+.box-3{
+    padding: 10px;
+    margin-top: 100px;
+    background-color: cadetblue;
+}
+
+/* How many pixels of space is there from the left/right hand sides of box-2 to the edge of the window
+
+50px
+
+How many pixels of space is there from the bottom of box-2 to the top of box-3
+
+100px
+
+ explaining why Box 1's background color expanded, but Box 2's did not. */
