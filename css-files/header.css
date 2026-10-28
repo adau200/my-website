@@ -1,0 +1,38 @@
+header{
+    background-color: #506c64;
+    border: 2px solid #000000;
+    margin: 10px;
+    padding: 10px;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    
+}
+
+
+.monkey-logo{
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-link{
+    color: #000000;
+    
+}
+
+.active-links{
+    background-color: brown;
+    padding: 5px;
+    border-radius: 50px
+    
+}
+
+.dead-links{
+    background-color: yellowgreen;
+    padding: 5px;
+    border-radius: 50px
+}
