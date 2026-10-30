@@ -1,0 +1,6 @@
+% changes images differenlyu
+vw change relative to wthe widht of the screen 
+html image for important ones
+css images for unimportant ones 
+
+display: block; pushes links down 

@@ -28,6 +28,36 @@
     background-color: cadetblue;
 }
 
+.phs-img {
+    width: 50%;
+    min-width: 10%
+}
+
+.hero-section {
+
+    background-image: url("../images/phs.jpg") ;
+    background-size: 20px;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    height: 30vh;
+    padding-right: 30em;
+}
+
+
+.hero-info{
+   background-color: red;
+   color: aqua;
+   padding: 3cm;
+   opacity: 50%;
+   
+
+}
+
+.hero-info h2 {
+    color: aquamarine;
+    text-transform:uppercase
+}
+
 /* How many pixels of space is there from the left/right hand sides of box-2 to the edge of the window
 
 50px
@@ -38,3 +68,6 @@ How many pixels of space is there from the bottom of box-2 to the top of box-3
 
  explaining why Box 1's background color expanded, but Box 2's did not. */
  /* Box 1 background color didn't expand, but box 3 did and that was because margin top was added */
+
+
+ 
