@@ -37,3 +37,4 @@ How many pixels of space is there from the bottom of box-2 to the top of box-3
 100px
 
  explaining why Box 1's background color expanded, but Box 2's did not. */
+ /* Box 1 background color didn't expand, but box 3 did and that was because margin top was added */
