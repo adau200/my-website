@@ -1,8 +1,57 @@
 body{
 
-    color: aqua;
-    background-color: purple
-;
-box-shadow: inset;
 }
+
+.hero-section{
+    background-image: url(../images/recipehomepage.jpeg);
+    background-repeat: no-repeat;  
+    background-size:cover;
+    width: 10em;
+    
+}
+
+.hero-card{
+    background-color: palegreen;
+    width: 30cm;
+    border-radius: 20%;
+    opacity: 80%;
+}
+
+
+.recipe-section{
+    background-color: palevioletred;
+
+
+
+}
+
+.recipe-tacos{
+    background-image: url(../images/tacos3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 10%;   
+    height: 100vh;  
+    width: 30em;
+    
+}
+
+.recipe-banhmi{
+    background-image: url(../images/banh-mi-sandwich.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 10%;   
+    height: 100vh;  
+    width: 30em;
+
+}
+.recipe-strawberryshortcake{
+    background-image: url(../images/strawberryshortcake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 10%;   
+    height: 100vh;  
+    width: 80em;
+
+}
+
 
