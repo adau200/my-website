@@ -36,3 +36,22 @@ a{
     padding: 5px;
     border-radius: 50px
 }
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 1;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+  line-height: 1.6;
+  /* text-transform: uppercase; */
+}
