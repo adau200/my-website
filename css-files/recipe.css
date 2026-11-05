@@ -6,20 +6,25 @@ body{
     background-image: url(../images/recipehomepage.jpeg);
     background-repeat: no-repeat;  
     background-size:cover;
-    width: 10em;
+    width: 60em;
+    height: 80vh;
+    background-color: palevioletred;
     
 }
 
 .hero-card{
     background-color: palegreen;
-    width: 30cm;
-    border-radius: 20%;
+    width: 8cm;
+    border-radius: 5%;
     opacity: 80%;
+    padding-bottom: 2px;
 }
 
 
 .recipe-section{
     background-color: palevioletred;
+    padding-top: 20px;
+    padding-left: 20px;
 
 
 
@@ -30,9 +35,26 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 10%;   
-    height: 100vh;  
-    width: 30em;
+    height: 40vh;  
+    width: 20em;
+    border: 2px solid rgb(222, 47, 88);
+    box-shadow: 10px 10px 0px 5px rgba(222, 47, 88, 0.7);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    padding-top: 1em;
+
     
+}
+
+.recipe-links{
+    background-color: rgb(255, 138, 165);
+    padding: 5px;
+    border-radius: 50px;
+    margin-left: 125px;
+    margin-bottom: 60px;
+    text-decoration: none;
+    color:#960224;
+
 }
 
 .recipe-banhmi{
@@ -40,8 +62,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 10%;   
-    height: 100vh;  
-    width: 30em;
+    height: 40vh;  
+    width: 20em;
+    border: 10%;
 
 }
 .recipe-strawberryshortcake{
@@ -49,8 +72,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 10%;   
-    height: 100vh;  
-    width: 80em;
+    height: 40vh;  
+    width: 25em;
 
 }
 
