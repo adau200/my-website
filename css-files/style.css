@@ -58,6 +58,51 @@
     text-transform:uppercase
 }
 
+.nav-link:hover{
+    background-color: aqua;
+    color: teal;
+    transform: scale(2)
+
+}
+
+.nav-link{
+    display: inline-block;
+    color: black;
+    padding: 10px 10px;
+    background-color: aqua;
+    border-radius: 50px;
+    /* transition: background-color 0.5s ease; */
+    transition: all 0.75s ease;
+    
+}
+
+.fa-angles-up {
+    font-size: 1.5rem;
+    border: 2px solid blue;
+    padding: .5em;
+    border-radius: 50%;
+    color: blue;
+    background-color: pink;
+    cursor: pointer;
+    position: absolute;
+    right: 50px;
+    top: 40px;
+    position: fixed;
+    bottom: 40px;
+    transition: all 1s ease;
+    /* transform: translateX(-50%); */
+}
+.fa-angles-up:hover{
+    transform: rotate(360deg);
+}
+
+main{
+    position: relative;
+    border: 2px solid blue;
+    top: 0px;
+    
+}
+
 /* How many pixels of space is there from the left/right hand sides of box-2 to the edge of the window
 
 50px
