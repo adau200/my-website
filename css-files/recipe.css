@@ -25,24 +25,26 @@ body{
     background-color: palevioletred;
     padding-top: 20px;
     padding-left: 20px;
+}
 
-
-
+.recipe-section li{
+    min-width: 10%;   
+    height: 40vh;  
+    width: 25em;
+    border: 2px solid rgb(222, 47, 88);
+    box-shadow: 10px 10px 0px 5px rgba(222, 47, 88, 0.7);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    padding-top: 1em;
+    position: relative;
 }
 
 .recipe-tacos{
     background-image: url(../images/tacos3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 10%;   
-    height: 40vh;  
-    width: 20em;
-    border: 2px solid rgb(222, 47, 88);
-    box-shadow: 10px 10px 0px 5px rgba(222, 47, 88, 0.7);
-    border-radius: 10px;
-    margin-bottom: 50px;
-    padding-top: 1em;
-
+    position:absolute;
+   
     
 }
 
@@ -50,8 +52,8 @@ body{
     background-color: rgb(255, 138, 165);
     padding: 5px;
     border-radius: 50px;
-    margin-left: 125px;
-    margin-bottom: 60px;
+    margin-left: 100px;
+    /* margin-bottom: 60px; */
     text-decoration: none;
     color:#960224;
 
@@ -61,35 +63,38 @@ body{
     background-image: url(../images/banh-mi-sandwich.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 10%;   
-    height: 40vh;  
-    width: 20em;
-    border: 10%;
+    
+    
 
 }
 .recipe-strawberryshortcake{
     background-image: url(../images/strawberryshortcake.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 10%;   
-    height: 40vh;  
-    width: 25em;
+    position:absolute;
 
 }
 
 .fa-heart{
     font-size: 2rem;
-    border: 2px solid blue;
-    background-color: #960224;
-    padding: 0.5em;
-    border-radius: 50%;
-    color: blueviolet;
-    position: fixed;
-    font-size: 1.5rem;
+    position: absolute;
+    right: 40px;
+    padding: .5em;
+    top: 15px;    
     cursor: pointer;
+    transition: all 0.75s ease;
+
 
 
 }
+
+.fa-heart:hover{
+    transform: scale(2);
+    color: red;
+}
+
+
+
 
 main{
     border: 2px solid blue;
