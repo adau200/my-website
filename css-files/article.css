@@ -1,0 +1,62 @@
+.img-1{
+    background-image: url(../images/thanksgiving.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;  
+    width: 60em;
+    border-radius: 10%;
+    
+}
+
+
+
+.articles{
+    display: flex;
+    border: 2px solid blue;
+    flex-direction: column;
+}
+.articles-title{
+    border: 2px solid blue;
+    align-self: center;
+}
+
+.thanksgiving-article{
+    border: 2px solid blue;
+    display: flex;
+
+
+}
+
+.thanksgiving-title{
+    border: 2px solid blue;
+    
+
+
+}
+
+.thanksgiving-date{
+    border: 2px solid blue;
+    align-self: center;
+
+
+}
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 1;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+  line-height: 1.6;
+  /* text-transform: uppercase; */
+}
