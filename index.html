@@ -8,6 +8,7 @@
         <script src="https://kit.fontawesome.com/67d5d83627.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css-files/style.css">
         <link rel="stylesheet" href="css-files/header.css">
+        <link rel="stylesheet" href="css-files/footer.css">
         <!-- <style>
             
             p {
@@ -24,13 +25,19 @@
 
     <body>
        <header id="header">
-            <h1 class="header-logo noto-serif">Homepage</h1>
-            <img class="monkey-logo" src="images/monekylogo.png" alt="monkeylogo">
+            <div>
+                <h1 class="header-logo noto-serif">Homepage</h1>
+                <img class="monkey-logo" src="images/monekylogo.png" alt="monkeylogo">
+            
+            </div>
             
             <nav class="homepage-links">
-                <a class="nav-link dead-links noto-serif">Home</a>
-                <a class="nav-link active-links noto-serif" class="active-links" href="pages/class-projects.html">class-projects</a>
-                <a class="nav-link active-links noto-serif" class="active-links" href="recipe-project/recipe-home.html">Recipe Home</a>
+                <div class="box-for-header-links">
+                <a class="nav-link dead-links open-sans">Home</a>
+                <a class="nav-link active-links open-sans" class="active-links" href="pages/class-projects.html">class-projects</a>
+                <a class="nav-link active-links open-sans" class="active-links" href="recipe-project/recipe-home.html">Recipe Home</a>
+                </div>
+                
             </nav>
             
         </header>
@@ -81,17 +88,26 @@
      
 
 
-       <footer>
-        <hr>
+       <footer id="footer">
+        
             <nav>
-                <a href="https://classroom.google.com/u/0/h/st">Google Classroom</a> 
-                <a href="https://github.com/adau200/my-website/settings/pages">Github Repository Page</a>
-                <a href="https://www.google.com/maps">Google Maps</a>
-                <a href="mailto:adaumawein@gmail.com">Contact</a>
-                <a href="index.html">Back to top</a>
+                <div class="box-for-footer-links">
+                    <a class="active-links nav-link" href="https://classroom.google.com/u/0/h/st">Google Classroom</a> 
+                    <a class="active-links nav-link" href="https://github.com/adau200/my-website/settings/pages">Github Repository Page</a>
+                    <a class="active-links nav-link" href="https://www.google.com/maps">Google Maps</a>
+                    <a class="active-links nav-link" href="mailto:adaumawein@gmail.com">Contact</a>
+                    <a class="active-links nav-link" href="index.html">Back to top</a>
+                </div>
+                <div class="box-for-nameaddress">
+                    <p>Adau Mawein 284 Cumberland Ave</p>
 
+                </div>
+                <div class="box-for-company-name">
+                    <p>AdauWeb©</p>
+
+                </div>
+                
             </nav>
-        AdauWeb©
         </footer>
  
 </html>
